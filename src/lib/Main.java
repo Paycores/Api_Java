@@ -81,7 +81,7 @@ public class Main {
 
             PayCoresValidateCode.validateCode(code,purchaseCodes);
 
-            PayCoresCreateOrder.createOder(authorize.getALLData());
+            PayCoresCreateOrder.createOrder(authorize.getALLData());
 
         } catch (PaycoresExceptions paycoresExceptions) {
             System.out.println("paycoresExceptions.getErrorMsg() = " + paycoresExceptions.getErrorMsg());
