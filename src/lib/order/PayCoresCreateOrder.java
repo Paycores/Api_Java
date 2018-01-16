@@ -25,7 +25,7 @@ public class PayCoresCreateOrder {
      * esta esperando el servicio este es el ultimo metodo que debe usarse en toda la transaccion
      * @param authorizeAllData - JSON con toda la informacion de los objetos
      */
-    public static void createOder(JSONObject authorizeAllData){
+    public static void createOrder(JSONObject authorizeAllData){
 
         String params = "";
 
